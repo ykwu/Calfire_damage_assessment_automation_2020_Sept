@@ -1,0 +1,1 @@
+# Calfire_damage_assessment_automation_2020_Sept
