@@ -2,5 +2,20 @@ Intake number,Address,Manual Status,Status,Verification
 1,11400 Empire Grade Santa Cruz CA 95060,No Damage,No Damage,match
 1,11530 Empire Grade Santa Cruz CA 95060,Destroyed (>50%),Destroyed (>50%),match
 1,11211 Empire Grade Santa Cruz CA 95060,Destroyed (>50%),Destroyed (>50%),match
-1,6774 State Highway 128 Napa CA 94558,Destroyed (>50%),No Visible Damage,mismatch
+1,6774 State Highway 128 Napa CA 94558,Destroyed (>50%),No record,mismatch
 1,6989 State Highway 128 Napa CA 94558,No Damage,No Damage,match
+,1196 Pine Flat Road Bonny Doon 95060,Still Under Evaluation,No record,mismatch
+,580 Burnside Bend Boulder Creek 95006,Destroyed (>50%),Destroyed (>50%),match
+,171 Clover Dr Boulder Creek 95006,Destroyed (>50%),Destroyed (>50%),match
+,8820 Mill Creek Rd Healdsburg 95448,Still Under Evaluation,Uncertain (Nearby features vary in damage),uncertain
+,5800 Mill Creek Road Healdsburg 95448,No Damage,No Damage,match
+,3862 Joslin Ln Vacaville 95688,Destroyed (>50%),Destroyed (>50%),match
+,4057 Freedom Rd Concow 95965,Still Under Evaluation,No record,mismatch
+,12485 Alba Road Ben Lomond 95005,Destroyed (>50%),No record,mismatch
+,3323 Shale Peak Ln Vacaville 95688,No Damage,No Damage,match
+,17507 Hwy12 Sonoma 95476,Still Under Evaluation,No record,mismatch
+,11257 Hwy 9 Boulder Creek 95006,Still Under Evaluation,Uncertain (Nearby features vary in damage),uncertain
+,512 Toyon Ave 161 San Jose 95127,,No record,unverified
+,8100 Harvard Dr Ben Lomond 95005,,No record,unverified
+,Ca12 17505 Sonoma 95476,,No record,unverified
+,7675 English Hills Road Vacaville 95688,,Destroyed (>50%),unverified

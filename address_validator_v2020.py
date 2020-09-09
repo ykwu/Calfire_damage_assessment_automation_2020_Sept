@@ -7,7 +7,7 @@ import requests
 URL = 'https://services.arcgis.com/BLN4oKB0N1YSgvY8/arcgis/rest/services/DINSMerge_wCounty/FeatureServer/0/query'
 GEOCODE_URL = 'http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates'
 GEOCODE_MIN_SCORE = 80
-DATA_CSV = 'damage0908.csv'
+DATA_CSV = 'damage0909.csv'
 
 
 class Uncertain(Exception):
@@ -91,7 +91,7 @@ def get_status(extent, location):
         js = res.json()
 
         if not js['features']:
-            return 'No Visible Damage'
+            return 'No record'
 
         def dist_to(location):
             def dist(house):
@@ -178,7 +178,7 @@ if __name__ == '__main__':
     print("""
 * Total intake of {count}
 * This script was able to determine the damage of {certain} addresses ({certain_pct:.2f}%)
-* {manually_reviewed} of {count} addresses have been manually reviewed by hand.
+* {manually_reviewed} of {count} addresses have been manually reviewed.
 * Out of these automatically reviewed addresses, {match} matched the manually reviewed damage ({match_pct:.2f}%)
 """.format(
         count=count,
