@@ -45,6 +45,7 @@ def geocode(address):
     try:
         res = requests.get(GEOCODE_URL, params=params)
         res.raise_for_status()
+
         js = res.json()
 
         if not js['candidates']:
@@ -174,6 +175,7 @@ if __name__ == '__main__':
             breakdown[verification] += 1
             writer.writerow([intake_num, address, manual_status, status, verification])
             f.flush()
+            
 
     print("""
 * Total intake of {count}
@@ -185,3 +187,4 @@ if __name__ == '__main__':
         certain_pct=100.0 * breakdown['certain'] / count,
         match_pct=100.0 * breakdown['match'] / breakdown['certain'],
         **breakdown))
+    print("done!")
